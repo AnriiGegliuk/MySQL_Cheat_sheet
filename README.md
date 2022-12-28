@@ -59,27 +59,27 @@ Fell free to use it for your references. Enjoy your leaning process!
 
 ### **BETWEEN**: operator selects values within a given range inclusive
 * `SELECT` column_names 
-* `FROM` table_name 
-* `WHERE` column_name 
-* `BETWEEN` value1 `AND` value2;
+ `FROM` table_name 
+ `WHERE` column_name 
+ `BETWEEN` value1 `AND` value2;
 
 * `SELECT` * 
-* `FROM` Products 
-* `WHERE` (column_name `BETWEEN` value1 `AND` value2) `AND NOT` column_name2 `IN` (value3, value4);
-* 
+ `FROM` Products 
+ `WHERE` (column_name `BETWEEN` value1 `AND` value2) `AND NOT` column_name2 `IN` (value3, value4);
+
 * `SELECT` * 
-* `FROM` Products 
-* `WHERE` column_name 
-* `BETWEEN` #01/07/1999# AND #03/12/1999#;
+ `FROM` Products 
+ `WHERE` column_name 
+ `BETWEEN` #01/07/1999# AND #03/12/1999#;
 
 ### **NULL**: values in a field with no value
-* `SELECT` * 
-* `FROM` table_name 
-* `WHERE` column_name `IS NULL`;
-* 
-* `SELECT` * 
-* `FROM` table_name 
-* `WHERE` column_name `IS NOT NULL`;
+ `SELECT` * 
+ `FROM` table_name 
+ `WHERE` column_name `IS NULL`;
+
+ `SELECT` * 
+ `FROM` table_name 
+ `WHERE` column_name `IS NOT NULL`;
 
 ### **AS**: aliases are used to assign a temporary name to a table or column
 * `SELECT` column_name `AS` alias_name `FROM` table_name;

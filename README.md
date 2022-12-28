@@ -4,7 +4,7 @@ A quick reminder of all relevant SQL queries and examples on how to use them.
 
 Fell free to use it and share with others. Enjoy your leaning process!
 
-# Table of Contents 
+# Content 
 1. [ Finding Data. ](#find)
 2. [ Data Modification. ](#modify)
 3. [ Reporting. ](#report)
@@ -14,7 +14,7 @@ Fell free to use it and share with others. Enjoy your leaning process!
 7. [ Creating Table.](#create)
 
 <a name="find"></a>
-# 1. Finding Data Queries
+# 1. Finding Data 
 
 ### **SELECT**: used to select data from a database
 * `SELECT` * `FROM` table_name;
@@ -109,7 +109,7 @@ Fell free to use it and share with others. Enjoy your leaning process!
 
 
 <a name="modify"></a>
-# 2. Data Modification Queries
+# 2. Data Modification 
 
 ### **INSERT INTO**: used to insert new records/rows in a table
 * `INSERT INTO` table_name (column1, column2) `VALUES` (value1, value2);
@@ -140,7 +140,7 @@ Fell free to use it and share with others. Enjoy your leaning process!
 * `SELECT SUM (`column_name`) FROM` table_name `WHERE` condition;
 
 <a name="joins"></a>
-# 4. Join Queries
+# 4. Joins
 
 ###  **INNER JOIN**: returns records that have matching value in both tables
 * `SELECT` column_names `FROM` table1 `INNER JOIN` table2 `ON` table1.column_name=table2.column_name;
@@ -159,7 +159,7 @@ Fell free to use it and share with others. Enjoy your leaning process!
 * `SELECT` column_names `FROM` table1 T1, table1 T2 `WHERE` condition;
 
 <a name="view"></a>
-# 5. View Queries
+# 5. View's
 
 ### **CREATE**: create a view
 * `CREATE VIEW` view_name `AS SELECT` column1, column2 `FROM` table_name `WHERE` condition;
@@ -183,7 +183,7 @@ Fell free to use it and share with others. Enjoy your leaning process!
 * `ALTER TABLE` table_name `DROP COLUMN` column_name;
 
 <a name="create"></a>
-# 7. Creating Table Query
+# 7. Creating Tables
 
 ### **CREATE**: create a table
 * `CREATE TABLE` table_name `(` <br />

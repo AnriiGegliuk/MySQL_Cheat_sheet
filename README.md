@@ -1,14 +1,14 @@
-# MySQL Cheatsheet
+# MySQL Cheat sheet
 
 A quick reminder of all relevant SQL queries and examples on how to use them. 
- 
-Fell free to use it for your references. Enjoy your leaning process!
+
+Fell free to use it and share with others. Enjoy your leaning process!
 
 # Table of Contents 
-1. [ Data Queries. ](#find)
+1. [ Finding Data. ](#find)
 2. [ Data Modification. ](#modify)
 3. [ Reporting. ](#report)
-4. [ Join. ](#joins)
+4. [ Joins. ](#joins)
 5. [ View. ](#view)
 6. [ Altering Table.](#alter)
 7. [ Creating Table.](#create)
@@ -58,28 +58,13 @@ Fell free to use it for your references. Enjoy your leaning process!
 * `SELECT` column_names `FROM` table_name `WHERE` column_name `IN` (`SELECT STATEMENT`);
 
 ### **BETWEEN**: operator selects values within a given range inclusive
-* `SELECT` column_names 
- `FROM` table_name 
- `WHERE` column_name 
- `BETWEEN` value1 `AND` value2;
-
-* `SELECT` * 
- `FROM` Products 
- `WHERE` (column_name `BETWEEN` value1 `AND` value2) `AND NOT` column_name2 `IN` (value3, value4);
-
-* `SELECT` * 
- `FROM` Products 
- `WHERE` column_name 
- `BETWEEN` #01/07/1999# AND #03/12/1999#;
+* `SELECT` column_names `FROM` table_name `WHERE` column_name `BETWEEN` value1 `AND` value2;
+* `SELECT` * `FROM` Products `WHERE` (column_name `BETWEEN` value1 `AND` value2) `AND NOT` column_name2 `IN` (value3, value4);
+* `SELECT` * `FROM` Products `WHERE` column_name `BETWEEN` #01/07/1999# AND #03/12/1999#;
 
 ### **NULL**: values in a field with no value
- `SELECT` * 
- `FROM` table_name 
- `WHERE` column_name `IS NULL`;
-
- `SELECT` * 
- `FROM` table_name 
- `WHERE` column_name `IS NOT NULL`;
+* `SELECT` * `FROM` table_name `WHERE` column_name `IS NULL`;
+* `SELECT` * `FROM` table_name `WHERE` column_name `IS NOT NULL`;
 
 ### **AS**: aliases are used to assign a temporary name to a table or column
 * `SELECT` column_name `AS` alias_name `FROM` table_name;

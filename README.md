@@ -1,4 +1,4 @@
-# MySQL Cheat sheet
+# SQL Cheat sheet
 
 A quick reminder of all relevant SQL queries and examples on how to use them. 
 
